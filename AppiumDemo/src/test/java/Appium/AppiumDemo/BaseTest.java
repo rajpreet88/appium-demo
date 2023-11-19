@@ -79,4 +79,9 @@ public class BaseTest {
 				((RemoteWebElement) elementImage).getId(), "direction", "left", "percent", 0.75));
 
 	}
+
+	public void dragDropAction(WebElement dragDrop) {
+		((JavascriptExecutor) driver).executeScript("mobile:dragGesture",
+				ImmutableMap.of("elementId", ((RemoteWebElement) dragDrop).getId(), "endX", 822, "endY", 793));
+	}
 }

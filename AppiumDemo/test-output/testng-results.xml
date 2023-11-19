@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-19T10:53:20 IST" name="Default suite" finished-at="2023-11-19T10:53:34 IST" duration-ms="13960">
+  <suite started-at="2023-11-19T15:19:38 IST" name="Default suite" finished-at="2023-11-19T15:19:58 IST" duration-ms="20566">
     <groups>
     </groups>
-    <test started-at="2023-11-19T10:53:20 IST" name="Default test" finished-at="2023-11-19T10:53:34 IST" duration-ms="13960">
-      <class name="Appium.AppiumDemo.SwipeDemoTest">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Appium.AppiumDemo.SwipeDemoTest@3b0fe47a]" started-at="2023-11-19T10:53:20 IST" name="configureAppium" finished-at="2023-11-19T10:53:26 IST" duration-ms="5811" status="PASS">
+    <test started-at="2023-11-19T15:19:38 IST" name="Default test" finished-at="2023-11-19T15:19:58 IST" duration-ms="20566">
+      <class name="Appium.AppiumDemo.MiscellenousDemo">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:38 IST" name="configureAppium" finished-at="2023-11-19T15:19:44 IST" duration-ms="6333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="swipeDemoTest()[pri:0, instance:Appium.AppiumDemo.SwipeDemoTest@3b0fe47a]" started-at="2023-11-19T10:53:26 IST" name="swipeDemoTest" finished-at="2023-11-19T10:53:33 IST" duration-ms="7709" status="PASS">
+        <test-method signature="miscellenousDemo()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:44 IST" name="miscellenousDemo" finished-at="2023-11-19T15:19:58 IST" duration-ms="13777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- swipeDemoTest -->
-        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:Appium.AppiumDemo.SwipeDemoTest@3b0fe47a]" started-at="2023-11-19T10:53:33 IST" name="tearDownAppium" finished-at="2023-11-19T10:53:34 IST" duration-ms="407" status="PASS">
+        </test-method> <!-- miscellenousDemo -->
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:58 IST" name="tearDownAppium" finished-at="2023-11-19T15:19:58 IST" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->
-      </class> <!-- Appium.AppiumDemo.SwipeDemoTest -->
+      </class> <!-- Appium.AppiumDemo.MiscellenousDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
