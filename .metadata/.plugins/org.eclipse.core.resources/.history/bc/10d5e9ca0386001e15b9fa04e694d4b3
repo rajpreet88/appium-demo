@@ -1,0 +1,5 @@
+package Appium.AppiumDemo;
+
+public class BaseTest {
+
+}

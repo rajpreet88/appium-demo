@@ -1,0 +1,7 @@
+package Appium.AppiumDemo;
+
+public class BaseTest {
+public void configureAppium() {
+	
+}
+}

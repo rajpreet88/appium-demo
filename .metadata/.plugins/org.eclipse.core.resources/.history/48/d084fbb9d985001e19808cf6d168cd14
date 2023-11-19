@@ -1,0 +1,16 @@
+package Appium.AppiumDemo;
+
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class AppiumBasics {
+
+	@Test
+	public void AppiumTest() {
+		
+		//AndroidDriver
+		AndroidDriver driver = new AndroidDriver(null, null)
+	}
+	
+}
