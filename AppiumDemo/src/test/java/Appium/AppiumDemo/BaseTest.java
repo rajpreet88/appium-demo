@@ -72,4 +72,11 @@ public class BaseTest {
 		driver.findElement(
 				AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"))"));
 	}
+
+	public void swipeAppiumAction(WebElement elementImage) {
+
+		((JavascriptExecutor) driver).executeScript("mobile:swipeGesture", ImmutableMap.of("elementId",
+				((RemoteWebElement) elementImage).getId(), "direction", "left", "percent", 0.75));
+
+	}
 }

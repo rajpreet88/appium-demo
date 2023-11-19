@@ -22,7 +22,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 public class LongPress extends BaseTest {
 
 	@Test
-	public void WifiSettingsName() throws MalformedURLException {
+	public void longPress() throws MalformedURLException {
 
 //		configureAppium();
 

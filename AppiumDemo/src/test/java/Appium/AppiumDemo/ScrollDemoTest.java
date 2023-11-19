@@ -22,7 +22,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 public class ScrollDemoTest extends BaseTest {
 
 	@Test
-	public void WifiSettingsName() throws MalformedURLException, InterruptedException {
+	public void scrollDemoTest() throws MalformedURLException, InterruptedException {
 
 //		configureAppium();
 
