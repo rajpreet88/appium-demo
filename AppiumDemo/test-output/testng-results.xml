@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-19T15:19:38 IST" name="Default suite" finished-at="2023-11-19T15:19:58 IST" duration-ms="20566">
+  <suite started-at="2023-11-20T16:12:16 IST" name="Default suite" finished-at="2023-11-20T16:12:46 IST" duration-ms="29459">
     <groups>
     </groups>
-    <test started-at="2023-11-19T15:19:38 IST" name="Default test" finished-at="2023-11-19T15:19:58 IST" duration-ms="20566">
-      <class name="Appium.AppiumDemo.MiscellenousDemo">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:38 IST" name="configureAppium" finished-at="2023-11-19T15:19:44 IST" duration-ms="6333" status="PASS">
+    <test started-at="2023-11-20T16:12:16 IST" name="Default test" finished-at="2023-11-20T16:12:46 IST" duration-ms="29459">
+      <class name="ecommerce.EcommerceTest.ecommerce_tc1">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:16 IST" name="configureAppium" finished-at="2023-11-20T16:12:23 IST" duration-ms="7030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="miscellenousDemo()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:44 IST" name="miscellenousDemo" finished-at="2023-11-19T15:19:58 IST" duration-ms="13777" status="PASS">
+        <test-method signature="fillForm()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:23 IST" name="fillForm" finished-at="2023-11-20T16:12:45 IST" duration-ms="22048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- miscellenousDemo -->
-        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:Appium.AppiumDemo.MiscellenousDemo@202b0582]" started-at="2023-11-19T15:19:58 IST" name="tearDownAppium" finished-at="2023-11-19T15:19:58 IST" duration-ms="415" status="PASS">
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:45 IST" name="tearDownAppium" finished-at="2023-11-20T16:12:46 IST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->
-      </class> <!-- Appium.AppiumDemo.MiscellenousDemo -->
+      </class> <!-- ecommerce.EcommerceTest.ecommerce_tc1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

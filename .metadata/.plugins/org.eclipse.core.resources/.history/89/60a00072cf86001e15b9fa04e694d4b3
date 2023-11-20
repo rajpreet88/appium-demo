@@ -1,0 +1,11 @@
+package ecommerce.EcommerceTest;
+
+import org.testng.annotations.Test;
+
+public class ecommerce_tc1 extends BaseTest {
+
+	@Test
+	public void fillForm() {
+
+	}
+}

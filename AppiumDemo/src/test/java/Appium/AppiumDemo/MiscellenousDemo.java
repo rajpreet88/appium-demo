@@ -9,6 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
@@ -22,7 +23,9 @@ public class MiscellenousDemo extends BaseTest {
 	public void miscellenousDemo() throws MalformedURLException {
 
 //		configureAppium();
-
+//		Activity activity = new Activity("io.appium.android.apis",
+//				"io.appium.android.apis.preference.PreferenceDependcies");
+//		driver.st
 		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 
 		driver.findElement(AppiumBy.accessibilityId("3. Preference dependencies")).click();
