@@ -27,11 +27,16 @@ public class ecommerce_tc1 extends BaseTest {
 		driver.findElement(
 				AppiumBy.xpath("//android.widget.TextView[@resource-id=\"android:id/text1\" and @text=\"Australia\"]"))
 				.click();
-		driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop")).click();
+
+		if (driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField")).getText().isEmpty()) {
+			String toastMessage = driver.findElement(AppiumBy.xpath("//android.widget.Toast[1]")).getAttribute("name");
+			Assert.assertEquals(toastMessage, "Please enter your name");
+		} else {
+
+			driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop")).click();
+		}
 
 		Thread.sleep(2000);
-//		String toastMessage = driver.findElement(AppiumBy.xpath("//android.widget.Toast[1]")).getAttribute("name");
-//		Assert.assertEquals(toastMessage, "Please enter your name");
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.attributeContains(

@@ -53,7 +53,7 @@ public class BaseTest {
 //				.click();
 //		;
 //	}
-	
+
 	public void scrollAppiumAction() {
 		boolean canScrollMore;
 		do {
@@ -63,7 +63,19 @@ public class BaseTest {
 
 		// here goes the code to handle the element if found while scrolling
 	}
-	
-	
-	
+
+	public void addProductToCart(String productName) {
+		int count = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName")).size();
+		for (int i = 0; i < count; i++) {
+			String name = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName")).get(i)
+					.getText();
+
+			if (name.equalsIgnoreCase(productName)) {
+				driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productAddCart")).get(i).click();
+
+			}
+
+		}
+	}
+
 }

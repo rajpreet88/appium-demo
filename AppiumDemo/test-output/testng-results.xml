@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T16:12:16 IST" name="Default suite" finished-at="2023-11-20T16:12:46 IST" duration-ms="29459">
+  <suite started-at="2023-11-20T19:09:38 IST" name="Default suite" finished-at="2023-11-20T19:10:13 IST" duration-ms="35188">
     <groups>
     </groups>
-    <test started-at="2023-11-20T16:12:16 IST" name="Default test" finished-at="2023-11-20T16:12:46 IST" duration-ms="29459">
-      <class name="ecommerce.EcommerceTest.ecommerce_tc1">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:16 IST" name="configureAppium" finished-at="2023-11-20T16:12:23 IST" duration-ms="7030" status="PASS">
+    <test started-at="2023-11-20T19:09:38 IST" name="Default test" finished-at="2023-11-20T19:10:13 IST" duration-ms="35188">
+      <class name="ecommerce.EcommerceTest.ecommerce_tc2">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc2@3a7442c7]" started-at="2023-11-20T19:09:38 IST" name="configureAppium" finished-at="2023-11-20T19:09:45 IST" duration-ms="6840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="fillForm()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:23 IST" name="fillForm" finished-at="2023-11-20T16:12:45 IST" duration-ms="22048" status="PASS">
+        <test-method signature="fillForm()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc2@3a7442c7]" started-at="2023-11-20T19:09:45 IST" name="fillForm" finished-at="2023-11-20T19:10:13 IST" duration-ms="27938" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:385)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at ecommerce.EcommerceTest.ecommerce_tc2.fillForm(ecommerce_tc2.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillForm -->
-        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc1@6bbe85a8]" started-at="2023-11-20T16:12:45 IST" name="tearDownAppium" finished-at="2023-11-20T16:12:46 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:ecommerce.EcommerceTest.ecommerce_tc2@3a7442c7]" started-at="2023-11-20T19:10:13 IST" name="tearDownAppium" finished-at="2023-11-20T19:10:13 IST" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->
-      </class> <!-- ecommerce.EcommerceTest.ecommerce_tc1 -->
+      </class> <!-- ecommerce.EcommerceTest.ecommerce_tc2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
